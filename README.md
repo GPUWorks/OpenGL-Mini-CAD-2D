@@ -12,4 +12,4 @@
    - Supported surfaces: BEZIER, SPLINE, NURB
 
 # Key Features and Usage:
-	ImplementationDetails.txt
+   - ImplementationDetails.txt
