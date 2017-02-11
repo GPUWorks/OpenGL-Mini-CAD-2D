@@ -1,0 +1,8 @@
+Game Engine Shaders Info File Format
+....................................
+
+On first line:
+	<number_of_shader_groups>
+
+File line format
+	[-i shader_id]	[-v vertex_shader_file_path] [-f fragment_shader_file_path]

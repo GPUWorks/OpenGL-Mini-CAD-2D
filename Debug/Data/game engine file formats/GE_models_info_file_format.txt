@@ -1,0 +1,8 @@
+Game Engine Models Info File Format
+....................................
+
+On first line:
+	<number_of_models>
+
+File line format
+	[-i model_id] [-fd file_directory] [-fn file_name]

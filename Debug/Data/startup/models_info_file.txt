@@ -1,0 +1,3 @@
+0
+-i 0 -fd Data/models/nanosuit -fn nanosuit.obj
+-i 1 -fd Data/models/nanosuit -fn nanosuit.obj

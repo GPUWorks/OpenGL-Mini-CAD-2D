@@ -1,0 +1,76 @@
+Mini-CAD 2D
+
+-> Main classes:
+    * T1Manager.h
+    * CurvesAndSurfaces.h
+    * DragAndDropListener.h
+    * PointPickingListener.h
+    * Operations.h
+
+    * ExtraModelProperty.h
+    * MeshFormat.h
+    * ModelCE.h
+    * ModelProperty.h
+    * ModelFormat.h
+
+... and many others classes used for managing opengl buffers and controls
+
+
+-> INPUT CONTROLS
+        * W,A,S,D - move in 3d world space
+        * MOUSE BUTTON 2 - move camera
+
+        * KEY E : Select Edit Mode (works only if there is no model under processing:
+            F was pressed before E)
+        * KEY C : Select Creatie Mode
+
+        * KEY R : Reset screen, clear draws
+
+    CREATIVE MODE
+
+        * KEY 0 : Select no curve type to be drawn on the screeen
+        * KEY 1 : HERMITE curve
+        * KEY 2 : BEZIER curve
+        * KEY 3 : B-SPLINE curve
+        * KEY 4 : SPLINE curve
+        * KEY 5 : NURB curve
+        * KEY 6 : BEZIER surface
+        * KEY 7 : SPLINE surface
+        * KEY 8 : NURB surface
+
+        * KEY F : Finish processing the current model
+        * KEY Z : Select Translation for curve expansion
+        * KEY X : Select Y Rotation for curve expansion
+
+        * KEY I : Print info about the current state on console
+
+        * KEY -> : Increase the Curves No
+        * KEY <- : Decrease the Curves No
+
+        * MOUSE SCROOL UP   : Increase the Number of Curve Points
+        * MOUSE SCROOL DOWN : Decrease the Number of Curve Points
+        * MOUSE BUTTON 1    : Set a point on the screen
+
+        ACTIONS
+
+            * press KEY F -> Set cursor on a point -> press MOUSE BUTTON 1 :
+                Set the model to which the point belongs, to current model - 
+                further processing can be done.
+
+            * Basic usage:
+                1) Select a curve or a surface to generate with KEYS from 1 to 8
+                2) Set cursor on different places on the screen and press MOUSE BUTTON 1
+                to generate a point
+                3) Select translation, modify the number of curves points, modify curves no
+                4) press F to finish with the current model
+                5) press C to enter in creative mode
+                6) play with control points
+                7) press R to reset
+
+                ! Reset when you want to clear the entire screen, step 7 is optional. You can draw
+                many curves at the same time on the screen.
+
+    EDIT MODE
+
+        * MOUSE BUTTON 1                  : Select a point on the screen
+        * MOUSE BUTTON 1 axis HOLD & DRAG : Modify point position

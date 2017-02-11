@@ -1,0 +1,4 @@
+3
+-i 0 -v Data/shaders/ModelV.glsl -f Data/shaders/ModelF.glsl -g Data/shaders/ModelG.glsl
+-i 1 -v Data/shaders/ModelV.glsl -f Data/shaders/ModelF.glsl -g Data/shaders/ModelGP.glsl
+-i 2 -v Data/shaders/ModelV.glsl -f Data/shaders/ModelF.glsl -g Data/shaders/ModelGL.glsl

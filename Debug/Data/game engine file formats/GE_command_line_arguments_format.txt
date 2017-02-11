@@ -1,0 +1,10 @@
+Game Engine Command Line Arguments Format
+
+exec_name [-s shaders_info_file] [-m models_info_file]
+
+Mandatory
+	[-s shaders_info_file]
+		Specify a file name that stores information about shaders
+
+	[-m models_info_file]
+		Specify a file name that stores information about models

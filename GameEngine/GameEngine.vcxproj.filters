@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{10efa238-05e6-4209-a2b1-40746df53ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Frame">
+      <UniqueIdentifier>{c6779aeb-1418-4bac-bc7e-8dda19b39174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Light">
+      <UniqueIdentifier>{6eb70317-472b-4569-8123-3ff992aa0894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{a44b60cc-66e7-4a6c-86e5-c120692402ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\Camera">
+      <UniqueIdentifier>{aaf107fe-0909-434f-b4cb-723302963665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\Frame">
+      <UniqueIdentifier>{b3dd19bc-7870-4b52-bb99-74c67e28802d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\Model">
+      <UniqueIdentifier>{8267b72f-9b3a-4578-b922-d0b590e92ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\Shader">
+      <UniqueIdentifier>{27757752-5536-4c63-847d-bede02bf235e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\Storage">
+      <UniqueIdentifier>{63c3a331-27b1-482b-98cb-fec287f2c720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\UserInteraction">
+      <UniqueIdentifier>{29adbe98-6fac-466a-aeab-0a23fd944b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\Window">
+      <UniqueIdentifier>{6e254e55-6376-4e7f-862a-31c0d0fd3bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{39bf473b-ed7f-48bf-b132-8ed48dcaa135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{79e5f3f4-3385-451f-8a1c-019392226f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader">
+      <UniqueIdentifier>{e6b4e5ac-d6b7-4021-9f15-d7c022dd40c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model\Mesh">
+      <UniqueIdentifier>{3203be3e-6d26-4686-94ea-e147cfb65e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage">
+      <UniqueIdentifier>{d9701911-c30d-4ebe-9263-ff3fb2d93a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture">
+      <UniqueIdentifier>{78c14273-ebdb-49b0-aab1-a1eba82c9059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UserInteraction">
+      <UniqueIdentifier>{f93ee0ab-c79b-403a-883d-97cb7399643f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vertex">
+      <UniqueIdentifier>{b60e3356-f44f-4c47-9ec6-f8f456696ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Window">
+      <UniqueIdentifier>{dd6dde59-f8a8-4c3e-ae97-79cb264fd3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{896c6dd2-4ef8-4630-87ed-24bf83f6b9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Camera">
+      <UniqueIdentifier>{6424f0cf-55e1-46c0-a216-d4b33e31219c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files\Light">
+      <UniqueIdentifier>{3907f0bb-3e18-42f5-a829-51c33868e72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{872a8d0a-7b47-4920-800c-676ca49f24a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{0c4e55ba-8218-4a9a-bea4-02df58aa60ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Frame">
+      <UniqueIdentifier>{5751b942-1997-46be-85dc-ff96485237c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Light">
+      <UniqueIdentifier>{cf948bbc-4206-456d-a5fa-e1478ea63654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{f4e727be-b2f1-4682-818a-2ebbae289193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{3efa1574-fb9a-4647-8dc5-890664d8d504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{6416f5ec-b2b8-4731-b6b4-cd23fe3b1377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{46572c7c-0c29-4a49-98a3-74dec4c634d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage">
+      <UniqueIdentifier>{758a2421-4122-4bb5-9542-b215fee36b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture">
+      <UniqueIdentifier>{504ad3b1-73d5-44d8-8757-e7a73e0b6801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UserInteraction">
+      <UniqueIdentifier>{1a4552d8-7ea9-46f0-9bb0-2633ec9dd262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vertex">
+      <UniqueIdentifier>{dc31799d-38fe-4795-9e18-69b7291e4b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Window">
+      <UniqueIdentifier>{3b485124-9699-4969-a705-c12b8941e56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Camera">
+      <UniqueIdentifier>{037cfbf3-ed9c-4e93-8cf1-8786d7b9d1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Frame">
+      <UniqueIdentifier>{09e59b59-b1f8-4bad-a4cd-1a9ee91ad234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Model">
+      <UniqueIdentifier>{05ddebc6-40b7-4fab-bd15-11e006746f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Shader">
+      <UniqueIdentifier>{53a9eb32-3d3a-4b96-8abc-a049199257f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Storage">
+      <UniqueIdentifier>{8aff62e7-4f04-41f3-b504-5ec26eb3c24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\UserInteraction">
+      <UniqueIdentifier>{12128db0-0421-420d-bcaa-242478d4ed7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Window">
+      <UniqueIdentifier>{eb6080f7-4b87-469f-bdbc-2eed977fc6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Mesh">
+      <UniqueIdentifier>{4e1d9dd0-29da-45d0-8e7e-61b8ee2accfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Vertex Data">
+      <UniqueIdentifier>{0ef122ee-89dc-402c-b247-0115201f126d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Vertex Data\Type">
+      <UniqueIdentifier>{04d2cdaa-898d-4ca0-b30d-2cb2bb3f270b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Texture Data">
+      <UniqueIdentifier>{586ebba9-1c9b-4cfa-8700-d3f2036551aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Texture Data\Type">
+      <UniqueIdentifier>{2f99759e-9832-4dd3-b9d6-8230828154f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Texture Data">
+      <UniqueIdentifier>{c0fa4077-c209-427a-9faa-7cb717cb42ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Texture Data\Type">
+      <UniqueIdentifier>{df25f90d-e2f1-4cb7-8572-a44647a9cd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Vertex Data">
+      <UniqueIdentifier>{9e1b2426-e865-4c2d-84bb-b57f64647338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Vertex Data\Type">
+      <UniqueIdentifier>{9995261b-bfd9-4c0d-a9c4-3d3323f12efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Draw">
+      <UniqueIdentifier>{d258d7ca-268f-4397-9b26-142c531ba2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders">
+      <UniqueIdentifier>{8d764be1-b75b-4d89-9cde-614d05affcb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loader">
+      <UniqueIdentifier>{ca03600f-6d97-49a3-a2e7-7b03d5d404bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{447bcded-ac34-4655-a2f1-df33188faddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager\Draw">
+      <UniqueIdentifier>{0bbb0509-f853-43a1-a2c8-934479c16e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Property Data">
+      <UniqueIdentifier>{201d15cd-fac6-4963-b75c-6a1e7da4b4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Property Data\Type">
+      <UniqueIdentifier>{c4937c20-df69-4c22-bf4b-6d51d83cf37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Property Data">
+      <UniqueIdentifier>{3b42f6cf-27b4-412e-95be-bf5a6c86942f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Property Data\Type">
+      <UniqueIdentifier>{6afc11c5-2540-4c21-a212-875a414fe1f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Vertex Data\Type\Index">
+      <UniqueIdentifier>{7476ebab-fd4f-4019-9c2a-b863da4b4cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Vertex Data\Type\Vertex">
+      <UniqueIdentifier>{ab1fc3a1-a4bd-4499-9008-5e860232e4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Texture Data\Type\Array 2D">
+      <UniqueIdentifier>{83de3e5c-0d40-40fb-b1c0-8564a429eaea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Vertex Data\Type\Vertex">
+      <UniqueIdentifier>{b0fc8d82-58e6-4241-9e62-b19dfa172a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Vertex Data\Type\Index">
+      <UniqueIdentifier>{305d4b10-ef34-4ee4-bcb6-ed81a80496f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Texture Data\Type\Array 2D">
+      <UniqueIdentifier>{bd69d676-0042-4c5a-96a8-bd4727ed4385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\_Cpp Data Structures">
+      <UniqueIdentifier>{fa41967a-6cef-4804-8602-b53c05421dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_Cpp Data Structures">
+      <UniqueIdentifier>{ef7cf1d7-f3dd-4ee8-b636-9ae42d63946d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Storage\Vertex Data\Type\Draw Indirect Command">
+      <UniqueIdentifier>{32530076-9b54-4624-834a-13ff2b5208fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Storage\Vertex Data\Type\Draw Indirect Command">
+      <UniqueIdentifier>{3501f99e-ca88-4ecd-88c4-da60b5595adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\__TEMA_1">
+      <UniqueIdentifier>{495e0c38-ffb9-4d40-8958-6f4e5b5fcd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\__TEMA_1">
+      <UniqueIdentifier>{0221ac2f-6abd-4106-ad75-f5731d056a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\__TEMA_1\Manager">
+      <UniqueIdentifier>{64e550a9-ebde-46dc-a1ba-6d0436487923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\__TEMA_1\Manager">
+      <UniqueIdentifier>{ad3b82ef-901d-430f-9700-9c9196310f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\__TEMA_1\Listeners">
+      <UniqueIdentifier>{a9d68003-a52b-42e2-9f58-663992940c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\__TEMA_1\Listeners">
+      <UniqueIdentifier>{711624b6-d44e-46e6-b20f-a680b3bf05d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\__TEMA_1\Operations">
+      <UniqueIdentifier>{356cbaad-865f-4e97-8dea-e83eb7732f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\__TEMA_1\Operations">
+      <UniqueIdentifier>{1821e073-11b7-4061-b64e-1e2ce62503b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\__TEMA_1\Curves and Surfaces Processing">
+      <UniqueIdentifier>{98042b75-270e-4b50-8ea1-a89156176b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\__TEMA_1\Curves and Surfaces Processing">
+      <UniqueIdentifier>{209a8e61-afb3-47a1-b9cd-a88d07af8e31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sources\MainLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraFormat.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraRotation.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraTranslation.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GLEW_Init.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GLFW_Init.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\FrameFormat.cpp">
+      <Filter>Source Files\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Light.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LightProperties.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CameraManager.cpp">
+      <Filter>Source Files\Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\FrameManager.cpp">
+      <Filter>Source Files\Manager\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelManager.cpp">
+      <Filter>Source Files\Manager\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\WindowManager.cpp">
+      <Filter>Source Files\Manager\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UserInteractionManager.cpp">
+      <Filter>Source Files\Manager\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\StorageManager.cpp">
+      <Filter>Source Files\Manager\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ShaderManager.cpp">
+      <Filter>Source Files\Manager\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MeshFormat.cpp">
+      <Filter>Source Files\Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelFormat.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PlayerCamera.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ShaderFormat.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ShaderLoader.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TextureFormat.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Keyboard.cpp">
+      <Filter>Source Files\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Mouse.cpp">
+      <Filter>Source Files\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\VertexFormat.cpp">
+      <Filter>Source Files\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Window.cpp">
+      <Filter>Source Files\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TextureDataStorage.cpp">
+      <Filter>Source Files\Storage\Texture Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\VertexDataStorage.cpp">
+      <Filter>Source Files\Storage\Vertex Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DrawManager.cpp">
+      <Filter>Source Files\Manager\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelLoader.cpp">
+      <Filter>Source Files\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TextureLoader.cpp">
+      <Filter>Source Files\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelPropertyBuffer.cpp">
+      <Filter>Source Files\Storage\Property Data\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelPropertyBufferSegment.cpp">
+      <Filter>Source Files\Storage\Property Data\Type</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PropertyDataStorage.cpp">
+      <Filter>Source Files\Storage\Property Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\VertexBuffer.cpp">
+      <Filter>Source Files\Storage\Vertex Data\Type\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\VertexBufferSegment.cpp">
+      <Filter>Source Files\Storage\Vertex Data\Type\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\IndexBuffer.cpp">
+      <Filter>Source Files\Storage\Vertex Data\Type\Index</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\IndexBufferSegment.cpp">
+      <Filter>Source Files\Storage\Vertex Data\Type\Index</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Array2DSquareTextureBuffer.cpp">
+      <Filter>Source Files\Storage\Texture Data\Type\Array 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\IndexBufferTree.cpp">
+      <Filter>Source Files\_Cpp Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\VertexBufferTree.cpp">
+      <Filter>Source Files\_Cpp Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DrawIndirectCommandBuffer.cpp">
+      <Filter>Source Files\Storage\Vertex Data\Type\Draw Indirect Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DrawIndirectCommandBufferSegment.cpp">
+      <Filter>Source Files\Storage\Vertex Data\Type\Draw Indirect Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DrawIndirectCommandBufferTree.cpp">
+      <Filter>Source Files\_Cpp Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\FrustumFormat.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Array2DTextureBufferTree.cpp">
+      <Filter>Source Files\_Cpp Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\T1Manager.cpp">
+      <Filter>Source Files\__TEMA_1\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PointPickingListener.cpp">
+      <Filter>Source Files\__TEMA_1\Listeners</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\DragAndDropListener.cpp">
+      <Filter>Source Files\__TEMA_1\Listeners</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Operations.cpp">
+      <Filter>Source Files\__TEMA_1\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\CurvesAndSurfaces.cpp">
+      <Filter>Source Files\__TEMA_1\Curves and Surfaces Processing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\CameraRotation.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CameraTranslation.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GLEW_Init.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GLFW_Init.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\FrameFormat.h">
+      <Filter>Header Files\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Light.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LightProperties.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CameraManager.h">
+      <Filter>Header Files\Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\FrameManager.h">
+      <Filter>Header Files\Manager\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\WindowManager.h">
+      <Filter>Header Files\Manager\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\UserInteractionManager.h">
+      <Filter>Header Files\Manager\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\StorageManager.h">
+      <Filter>Header Files\Manager\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShaderManager.h">
+      <Filter>Header Files\Manager\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MeshFormat.h">
+      <Filter>Header Files\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelFormat.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PlayerCamera.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PlayerCameraCE.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShaderCE.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShaderFormat.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShaderLoader.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\TextureCE.h">
+      <Filter>Header Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\TextureFormat.h">
+      <Filter>Header Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Keyboard.h">
+      <Filter>Header Files\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Mouse.h">
+      <Filter>Header Files\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexFormat.h">
+      <Filter>Header Files\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Window.h">
+      <Filter>Header Files\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MainLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CameraFormat.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexDataStorage.h">
+      <Filter>Header Files\Storage\Vertex Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DrawManager.h">
+      <Filter>Header Files\Manager\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelLoader.h">
+      <Filter>Header Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\TextureLoader.h">
+      <Filter>Header Files\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\defcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelManager.h">
+      <Filter>Header Files\Manager\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelPropertyBuffer.h">
+      <Filter>Header Files\Storage\Property Data\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelPropertyBufferSegment.h">
+      <Filter>Header Files\Storage\Property Data\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PropertyDataStorage.h">
+      <Filter>Header Files\Storage\Property Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\IndexBuffer.h">
+      <Filter>Header Files\Storage\Vertex Data\Type\Index</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\IndexBufferSegment.h">
+      <Filter>Header Files\Storage\Vertex Data\Type\Index</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexBuffer.h">
+      <Filter>Header Files\Storage\Vertex Data\Type\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexBufferSegment.h">
+      <Filter>Header Files\Storage\Vertex Data\Type\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DrawElementsIndirectCommand.h">
+      <Filter>Header Files\Storage\Vertex Data\Type\Draw Indirect Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Array2DSquareTextureBuffer.h">
+      <Filter>Header Files\Storage\Texture Data\Type\Array 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelProperty.h">
+      <Filter>Header Files\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\IndexBufferTree.h">
+      <Filter>Header Files\_Cpp Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\VertexBufferTree.h">
+      <Filter>Header Files\_Cpp Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DrawIndirectCommandBuffer.h">
+      <Filter>Header Files\Storage\Vertex Data\Type\Draw Indirect Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DrawIndirectCommandBufferSegment.h">
+      <Filter>Header Files\Storage\Vertex Data\Type\Draw Indirect Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DrawIndirectCommandBufferTree.h">
+      <Filter>Header Files\_Cpp Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\FrustumFormat.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Array2DTextureBufferTree.h">
+      <Filter>Header Files\_Cpp Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\T1Manager.h">
+      <Filter>Header Files\__TEMA_1\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DragAndDropListener.h">
+      <Filter>Header Files\__TEMA_1\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PointPickingListener.h">
+      <Filter>Header Files\__TEMA_1\Listeners</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Operations.h">
+      <Filter>Header Files\__TEMA_1\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelCE.h">
+      <Filter>Header Files\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CurvesAndSurfaces.h">
+      <Filter>Header Files\__TEMA_1\Curves and Surfaces Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ExtraModelProperty.h">
+      <Filter>Header Files\Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\TextureDataStorage.h">
+      <Filter>Header Files\Storage\Texture Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Debug\Data\shaders\LightF.glsl">
+      <Filter>Shader Files\Light</Filter>
+    </None>
+    <None Include="..\Debug\Data\shaders\LightV.glsl">
+      <Filter>Shader Files\Light</Filter>
+    </None>
+    <None Include="..\Debug\Data\shaders\ModelF.glsl">
+      <Filter>Shader Files\Camera</Filter>
+    </None>
+    <None Include="..\Debug\Data\shaders\ModelG.glsl">
+      <Filter>Shader Files\Camera</Filter>
+    </None>
+    <None Include="..\Debug\Data\shaders\ModelV.glsl">
+      <Filter>Shader Files\Camera</Filter>
+    </None>
+    <None Include="..\Debug\Data\shaders\ModelGP.glsl">
+      <Filter>Shader Files\Camera</Filter>
+    </None>
+    <None Include="..\Debug\Data\shaders\ModelGL.glsl">
+      <Filter>Shader Files\Camera</Filter>
+    </None>
+  </ItemGroup>
+</Project>
