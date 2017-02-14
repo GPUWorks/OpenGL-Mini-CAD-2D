@@ -2,6 +2,7 @@
 
 # Preconditions
    - Microsoft Visual Studio IDE
+   - Run the project in Debug x86 mode
 
 # Short Description:
    - Mini-CAD/CAM system implementation for defining various curves and surfaces
